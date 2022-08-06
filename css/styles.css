@@ -11325,15 +11325,14 @@ a.red-text:hover {
   text-decoration: underline;
 }
 
-h2.case-studies {
+.case-studies {
   font-weight: bold;
-  font-size: xx-large;
   letter-spacing: 0.5rem;
 }
 
 .case-study-heading {
   text-transform: uppercase;
-  letter-spacing: 0.65rem;
+  letter-spacing: 0.45rem;
   font-size: xx-large;
   font-weight: 600;
 }
@@ -11439,6 +11438,10 @@ footer a:hover {
   color: var(--chaks-red-color) !important;
   text-decoration: underline;
   
+}
+
+.fs-xxlarge {
+  font-size: xx-large;
 }
 
 /* Small devices (landscape phones, 544px and up) */
