@@ -10,7 +10,7 @@ body {
 }
 
 .content {
-  padding-top: 89px;
+  padding-top: 130px;
 }
 
 
@@ -19,13 +19,13 @@ body {
     line-height: 74px;
     color: #000000;
     margin: 0px;
-    margin-top: 91px;
+    margin-top: 57px;
 }
 
 .hero-text {
   font-size: 25px;
   line-height: 35px;
-  margin-top: 65px;
+  margin-top: 95px;
 }
 
 .nav-item {
@@ -136,9 +136,10 @@ footer p {
   }
   
   a.red-text {
-    font-weight: 500;
+    font-weight: 700;
     margin-right: 20px;
     text-decoration: none;
+
   }
   
   a.red-text:hover {
