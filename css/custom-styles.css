@@ -13,6 +13,9 @@ body {
   padding-top: 130px;
 }
 
+.content-case-studies {
+  padding-top: 100px;
+}
 
 .design-text {
     font-size: 61px;
@@ -48,6 +51,12 @@ h1.main-page {
     align-items: center;
     margin: 0px;
     margin-left: -10px;
+}
+
+h1.case-studies {
+  font-weight: 700;
+  font-size: 59px;
+  margin-bottom: 50px;
 }
 
 h2.case-studies {
