@@ -258,3 +258,20 @@ footer p {
     transform: matrix(-0.98, 0.18, 0.21, 0.98, 0, 0);
     height: 500px;
   }
+
+  /* ILF Case study */
+  .footer-ilf {
+    max-width: 1320px;
+    margin: auto;
+    margin-top: 450px;
+    padding-left: 80px;
+  }
+
+  .ilf-case-study h1, h2 {
+    color: #C57B57 !important;
+    font-weight: 700;
+  }
+
+  .ilf-case-study h2 {
+    line-height: 63px;
+  }
