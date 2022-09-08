@@ -1,21 +1,27 @@
+
   /* ILF Case study */
   body {
-    font-family: 'Space Grotesk';
+    font-family: 'Space Grotesk' !important;
+    font-size: 25px;
   }
   .footer-ilf {
     max-width: 1320px;
     margin: auto;
     margin-top: 450px;
     padding-left: 80px;
+    margin-left: -72px;
+    margin-right: -72px;
   }
 
   h1, h2 {
     color: #C57B57 !important;
     font-weight: 700;
+    font-size: 49px;
   }
 
   h2 {
     line-height: 63px;
+    margin-top: 45px !important;
   }
 
   .content-case-studies {
@@ -38,7 +44,11 @@
   }
 
 .image-text {
-  font-size: 16px; 
+  font-size: 24px; 
   color: #C57B57;
   font-style: italic;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link  {
+  padding-left: 6.5rem;
 }
