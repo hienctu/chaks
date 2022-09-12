@@ -1,0 +1,63 @@
+
+  /* ILF Case study */
+  body {
+    font-family: 'Roboto' !important;
+    color: #464343 !important;
+    font-size: 29px;
+  }
+  .footer-ilf {
+    max-width: 1320px;
+    margin: auto;
+    margin-top: 450px;
+    padding-left: 80px;
+    margin-left: -72px;
+    margin-right: -72px;
+  }
+
+  h1 {
+    font-family: 'Arial';
+    font-size: 83px !important;
+    font-weight: 700;
+    line-height: 95px;
+  }
+
+  .heading {
+    align-items: center; 
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+  
+  h1.heading {
+    opacity: 0.2;
+    text-transform: uppercase;
+  }
+
+
+  h2 {
+    color: #000 !important;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 42px;
+  }
+
+  h2.heading {
+    text-transform: uppercase;
+    position: absolute;
+    margin-left: 60px;
+  }
+
+  hr.heading {
+    position: absolute;
+    margin-left: -72px;
+    color: #A70A0A;
+    width: 123px;
+  }
+
+  .content-tesla {
+    padding-left: 72px;
+    padding-right: 72px;
+  }
+
+  .red-text {
+    columns: #A70A0A;
+  }
