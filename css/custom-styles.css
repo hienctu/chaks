@@ -88,6 +88,7 @@ h3.case-study-heading {
 .resume-heading {
   font-size: 30px;
   line-height: 35px;
+  color: #000 !important;
 }
 
 p.readmore {
@@ -113,6 +114,12 @@ p.readmore {
   height: 141px;
 }
 
+.ato-img-screen {
+  width: 480px;
+  position: absolute;
+  margin-top: 80px;
+  right: 60px;
+}
 
 footer {
   border-top: solid 2px var(--chaks-gold-color);
@@ -222,6 +229,8 @@ footer p {
     color: var(--bs-black) !important;
     font-weight: 600;
     letter-spacing: 0.15rem;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 1rem !important;
   }
   
   .nav-link.active {
@@ -267,11 +276,15 @@ footer p {
     padding-left: 80px;
   }
 
-  .ilf-case-study h1, h2 {
+  /* .ilf-case-study h1, h2 {
     color: #C57B57 !important;
     font-weight: 700;
   }
 
   .ilf-case-study h2 {
     line-height: 63px;
+  } */
+
+  .site-name {
+    font-family: 'Montserrat', sans-serif !important;
   }

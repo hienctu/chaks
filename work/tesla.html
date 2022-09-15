@@ -12,6 +12,7 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Arial&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
         <link href="../css/styles.css?v=2" rel="stylesheet" />
         <link href="../css/custom-styles.css?v=2" rel="stylesheet" />
         <link href="../css/tesla-custom-styles.css?v=2" rel="stylesheet" />
@@ -26,22 +27,22 @@
     <body>
             <script>
                 $(document).ready(function(){
-                  $("#animateImg").click(function(){
-                        $("#animateImg").effect( "pulsate", {times:5}, 5000 );
-                    });
+                //   $("#animateImg").click(function(){
+                        $("#animateImg").effect( "pulsate", {times:10000}, 10000*1000 );
+                    // });
                 });
             </script>
             <!-- Responsive navbar-->
             <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
 
                 <div class="container padding-lr">
-                    <a class="navbar-brand site-name" href="../index.html" style="font-size: 28px">Chakshu Daluja</a>
+                    <a class="navbar-brand site-name" href="../index.html">Chakshu Daluja</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto my-3 my-lg-0">
-                            <li class="nav-item"><a class="nav-link me-lg-3" href="../about.html" style="font-size: 28px">About</a></li>
-                            <li class="nav-item"><a class="nav-link me-lg-3" href="../work.html"  style="font-size: 28px">Work</a></li>
-                            <li class="nav-item"><a class="nav-link me-lg-3" href="../resume.html"  style="font-size: 28px">Resume</a></li>
+                            <li class="nav-item"><a class="nav-link me-lg-3" href="../about.html">About</a></li>
+                            <li class="nav-item"><a class="nav-link me-lg-3" href="../work.html">Work</a></li>
+                            <li class="nav-item"><a class="nav-link me-lg-3" href="../resume.html">Resume</a></li>
                         </ul>
                     </div>
                 </div>  
@@ -428,10 +429,12 @@
                         <p>Below screens will be displayed when airbags are deployed.</p>
                     </div>
                     <div class="row" >
-                        <div class="col-lg-6" style="padding-right: 50px;" >
-                            <img src="../assets/tesla/animation screen.png" id="animateImg" class="img-animate" />
+                        <div class="col-lg-6" style="background-image: url('../assets/tesla/animation-bg.png'); background-repeat: no-repeat;" >
+                            <div class="text-center" style="align-items: center;">
+                                <img src="../assets/tesla/animate-tesla.png" id="animateImg" class="img-animate" style="margin-top: 50px;" />
+                            </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6" style="margin-left: -10px;">
                             <img src="../assets/tesla/animation screen 2 not animation required for this one.png" />
                         </div>
                     </div>
@@ -488,18 +491,18 @@
 
                     
 
-                     <!-- ======= Footer ======= -->
-                <footer class="footer-ato">
+                <footer>
                 
                     <div class="row">
                         <div class="col-lg-7">
                             <p>&copy; 2022 Chakshu, All Rights Reserved.</p>
                         </div>
-                        <div class="col-lg-3">
-                            <p><a href="#" class="red-text ">dalujachakshu@gmail.com</a></p>
-                        </div>
+                        <div class="col-lg-2"></div>
                         <div class="col-lg-2">
-                            <p><a href="#" class="red-text ">LinkedIn</a></p>
+                            <p style="text-align: right;"><a href="mailto:dalujachakshu@gmail.com" class="red-text ">dalujachakshu@gmail.com</a></p>
+                        </div>
+                        <div class="col-lg-1">
+                            <p style="text-align: right;"><a href="https://www.linkedin.com/in/chakshudaluja/" class="red-text " style="margin-right: 0px;">LinkedIn</a></p>
                         </div>
                     </div>
                 
