@@ -74,3 +74,8 @@
 .navbar-expand-lg .navbar-nav .nav-link  {
   padding-left: 6.5rem;
 }
+
+.no-margin-tb {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
