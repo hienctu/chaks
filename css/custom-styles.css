@@ -154,12 +154,9 @@ footer p {
   a.red-text {
     font-weight: 700;
     margin-right: 20px;
-    text-decoration: none;
-
   }
   
   a.red-text:hover {
-    text-decoration: underline;
     color: var(--chaks-gold-color);
   }
   
